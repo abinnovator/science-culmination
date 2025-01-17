@@ -4,6 +4,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Animals from "@/components/Animals";
 import { FaHome } from "react-icons/fa";
+import { CardHoverEffectDemo } from "@/components/dichotomous_key";
 
 export default function Home() {
   return (
@@ -12,7 +13,14 @@ export default function Home() {
         <FloatingNav navItems={[{name: 'Home', link: './', icon: <FaHome />}]}/>
         <Hero />
         <Grid />
-        <Animals type="Bird" />
+        <div className="py-2">
+          <Animals type="Bird" />
+          <Animals type="Mammal" />
+          <Animals type="Reptile" />
+          <Animals type="Key" />
+        </div>
+        
+        <CardHoverEffectDemo />
       </div>
     </main>
   );

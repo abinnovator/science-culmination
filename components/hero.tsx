@@ -22,7 +22,7 @@ const hero = () => {
                     <h2 className='uppercase tracking-widest test-xs text-center text-blue-100 max-w-80'>
                     Science culmination project VII
                     </h2>
-                    <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Can you gues the aniaml' />
+                    <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Can you guess the animal' />
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         
                     </p>
