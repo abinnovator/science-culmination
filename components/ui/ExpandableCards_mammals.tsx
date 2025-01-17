@@ -202,22 +202,22 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "????????????????????????????????????????????",
-    title: "??????????????????",
+    description: "?",
+    title: "?",
     src: "/AsiaWire-BearReturn-2.svg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <p>
-          This is a mammal that is all i can tell you about this mammal if you want more information scroll down to find the Dichotomous key.
+          This is a mammal that is all I can tell you about this mammal. If you want more information scroll down to find the Dichotomous key.
         </p>
       );
     },
   },
   {
-    description: "??????????????",
-    title: "?????????????????",
+    description: "??",
+    title: "??",
     src: "/himalyan-brown-bear.svg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
@@ -230,7 +230,7 @@ const cards = [
     },
   },
   {
-    title: '???????',
+    title: '???',
     src: '/dhole (1).svg',
     content: () => {
       return (
@@ -241,7 +241,7 @@ const cards = [
     },
   },
   {
-    title: '???????',
+    title: '????',
     src: '/dingoes (1).svg',
     content: () => {
       return (

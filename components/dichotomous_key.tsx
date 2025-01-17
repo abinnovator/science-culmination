@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Mammals",
     description: "1a. Animal has a large body, thick fur, and is a bear → Go to Step 2."+"\n\n 1b. Animal has a slimmer body, looks like a wild dog 🐕 → Go to Step 3",
-    link: "#", // Assuming you have a dedicated page for the key
+    link: "#", 
   },
   {
     title: "Step 2", 

@@ -14,7 +14,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <div className="py-2">
-          <Animals type="Bird" />
+          <Animals type="Bird"  />
           <Animals type="Mammal" />
           <Animals type="Reptile" />
           <Animals type="Key" />
